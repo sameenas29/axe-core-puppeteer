@@ -6,9 +6,9 @@
 //  * submit button with data-testid="Submit"
 
 const { AxePuppeteer } = require('@axe-core/puppeteer');
+const puppeteer = require('puppeteer');
 
 const DEFAULT_TIMEOUT = 2000;
-const SCREENSHOTS_DIRECTORY = 'upload';
 
 (async () => {
   const browser = await puppeteer.launch();
