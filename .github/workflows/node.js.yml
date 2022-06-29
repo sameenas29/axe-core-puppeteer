@@ -20,8 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
-          cache-dependency-path: perfanalytics-api/package-lock.json
+
       - run: npm install
       - run: npm run test-homepage
       - run: npm run test-newConversationPage
