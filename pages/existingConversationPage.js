@@ -12,7 +12,7 @@ const DEFAULT_TIMEOUT = 2000;
 const SCREENSHOTS_DIRECTORY = 'upload';
 
 (async () => {
-  const browser = await puppeteer.launch({headless:false});
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.setBypassCSP(true);
 
