@@ -20,4 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm install
-      - run: npm run test-accessibility
+      - run: npm run test-homepage
+      - run: npm run test-newConversationPage
+      - run: npm run test-existingConversationPage
+      - run: npm run test-conversationListPage
