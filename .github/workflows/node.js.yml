@@ -22,7 +22,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npm install
-      working-directory: ./pages
       - run: npm run test-homepage
       - run: npm run test-newConversationPage
       - run: npm run test-existingConversationPage
