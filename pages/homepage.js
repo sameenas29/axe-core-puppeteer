@@ -1,5 +1,5 @@
 //This code tests the accessibility of the homepage after the chat trigger is clicked
-//using puppeteer we click on the div with data-testid="Open chat" of the frame 'spr-chat__trigger-frame'
+//using puppeteer we click on the div with data-testid= "Open chat" of the frame 'spr-chat__trigger-frame'
 
 const { AxePuppeteer } = require('@axe-core/puppeteer');
 const puppeteer = require('puppeteer');
