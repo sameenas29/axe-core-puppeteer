@@ -62,7 +62,7 @@ const SCREENSHOTS_DIRECTORY = 'upload';
 
         //upload a picture 
         const photo = await frame.$("input[type=file]");
-        await photo.uploadFile("upload/photo.jpeg");
+        await photo.uploadFile("assets/images/photo.jpeg");
         await frame.waitForTimeout(10000); 
 
     }
