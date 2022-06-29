@@ -6,7 +6,6 @@
 //  * submit button with data-testid="Submit"
 
 const { AxePuppeteer } = require('@axe-core/puppeteer');
-const puppeteer = require('puppeteer');
 
 const DEFAULT_TIMEOUT = 2000;
 const SCREENSHOTS_DIRECTORY = 'upload';
@@ -62,7 +61,7 @@ const SCREENSHOTS_DIRECTORY = 'upload';
 
         //upload a picture 
         const photo = await frame.$("input[type=file]");
-        await photo.uploadFile("assets/images/photo.jpeg");
+        await photo.uploadFile("../assets/images/photo.jpeg");
         await frame.waitForTimeout(10000); 
 
     }
