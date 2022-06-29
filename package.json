@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-homepage": "node pages/homepage.js",
-    "test-newConversationPage": "node pages/existingConversationPage.js",
-    "test-existingConversationPage": "node pages/homepage.js",
+    "test-newConversationPage": "node pages/newConversationPage.js",
+    "test-existingConversationPage": "node pages/existingConversationPage.js",
     "test-conversationListPage": "node pages/conversationListPage.js"
     
   },

@@ -3,7 +3,7 @@
 //  * div with data-testid="Open chat" of the frame 'spr-chat__trigger-frame'
 //  * div with Id="spr-new-conversation-btn" of the frame 'spr-chat__box-frame'
 //  * input field with Id="COMPOSER_ID"
-//  * submit button with data-testid="Submit"
+//  * submit button with data-testid= "Submit"
 
 const { AxePuppeteer } = require('@axe-core/puppeteer');
 const puppeteer = require('puppeteer');
