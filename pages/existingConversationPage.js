@@ -61,8 +61,8 @@ const DEFAULT_TIMEOUT = 2000;
         await frame.waitForTimeout(DEFAULT_TIMEOUT);
 
         //upload a picture 
-        //const photo = await frame.$("input[type=file]");
-        //await photo.uploadFile("../assets/images/photo.jpeg");
+        const photo = await frame.$("input[type=file]");
+        await photo.uploadFile("../assets/images/photo.jpeg");
         await frame.waitForTimeout(10000); 
 
     }
